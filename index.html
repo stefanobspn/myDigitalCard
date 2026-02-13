@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <!-- Profile Image Area -->
+            <div class="card-header">
+                <div class="profile-img-wrapper">
+                    <!-- Placeholder Image -->
+                    <img src="https://ui-avatars.com/api/?name=Stefano+Nirwana&background=random&size=256" alt="Profile"
+                        class="profile-img">
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="card-body">
+                <h1 class="name">Stefano Nirwana</h1>
+                <p class="role">Software engineer</p>
+                <p class="bio">
+                    Suka mie ayam dan komputer
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="actions">
+                    <a href="mailto:stefano.bspn@gmail.com" class="btn primary">
+                        <i class="fa-solid fa-envelope"></i> Email Me
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/stefanobspn" target="_blank" class="social-item" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/stefano.bspn/" target="_blank" class="social-item"
+                        title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <p>stefanonirwana.dev</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
